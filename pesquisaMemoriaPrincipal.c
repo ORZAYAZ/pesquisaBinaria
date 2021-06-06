@@ -81,7 +81,9 @@ void primeiraQ()
 		}
 		
 		printf("\n");
-		printf(" +-------------------------------------------------+\n");
+		printf(" +-----------+\n");
+		printf(" | Enunciado |\n");
+		printf(" +-----------+-------------------------------------+\n");
 		printf(" | Digite o elemento que deseja pesquisar no vetor |\n");
 		printf(" +-------------------------------------------------+\n");
 		printf("\n");
@@ -107,6 +109,39 @@ void primeiraQ()
 	}
 }
 
+void segundaQ()
+{
+	printf("\n");
+	printf(" +-----------+\n");
+	printf(" | Enunciado |\n");
+	printf(" +-----------+---------------------------------------------------+\n");
+	printf(" | Dado um vetor ordenado de inteiros distintos v[1,...,n],      |\n");
+	printf(" | você quer descobrir se existe um índice i tal que v[i] = i.   |\n");
+	printf(" | Desenvolva um algoritmo do tipo dividir para conquistar que   |\n");
+	printf(" | resolva este problema e cuja complexidade idade seja O(log n).|\n");
+	printf(" +---------------------------------------------------------------+\n");
+	printf("\n");
+}
+
+void terceiraQ()
+{
+	printf("\n");
+	printf(" +-----------+\n");
+	printf(" | Enunciado |\n");
+	printf(" +-----------+---------------------------------------------------------+\n");
+	printf(" | Implemente uma TAD Lista para o tipo Aluno (Matrícula e Nome), com  |\n");
+	printf(" | as funcionalidades básicas de uma TAD, Implemente uma lista para    |\n");
+	printf(" | a versão usando arranjos e outra para a versão usando ponteiros.    |\n");
+	printf(" | Adicione a TAD as seguintes funcionalidades:                        |\n");
+	printf(" | 								       |\n");
+	printf(" | * Uma função PesquisaSequencial, que recebe como parâmetro o nome   |\n"); 
+	printf(" | de um aluno e retorna a sua matrícula.			       |\n");
+	printf(" | * Uma função PesquisaBinaria, que recebe como parâmetro a matrícula |\n");
+	printf(" | de um aluno e retorne o seu nome.				       |\n");
+	printf(" +---------------------------------------------------------------------+\n");
+	printf("\n");
+}
+
 int main(void)
 {
 	mostrarMenu();
@@ -118,6 +153,16 @@ int main(void)
 		case 1:
 		{
 			primeiraQ();
+			break;
+		}
+		case 2:
+		{
+			segundaQ();
+			break;
+		}
+		case 3:
+		{
+			terceiraQ();
 			break;
 		}
 		default:
