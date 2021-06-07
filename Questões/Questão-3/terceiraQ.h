@@ -169,3 +169,36 @@ void imprimirFila(filaAluno *F)
 		printf("\n");
 	}
 }
+
+bool pesquisaBinaria(filaAluno *F, int matricula)
+{
+	int direita = 
+	int esquerda = 
+	int meio = (esquerda + direita/2);
+	while (esquerda <= direita)
+	{
+		if(matricula == F[meio])
+		{
+			return true;
+		}
+		else if(matricula < F[meio])
+		{
+			direita = meio - 1;
+			continue;
+		}
+		else if(matricula > F[meio])
+		{
+			esquerda = meio + 1;
+			continue;
+		}
+		else
+		{
+			return false;
+		}
+	}
+}
+
+bool pesquisaSequencial(filaAluno *F, int matricula)
+{
+	
+}
