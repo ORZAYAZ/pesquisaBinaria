@@ -1,5 +1,5 @@
 // +-------------------------------------------+-------------+
-// | Pesquisa em Memória Principal - Questão 1 | @Pedro Igor |
+// | Pesquisa em Memória Principal - Questão 2 | @Pedro Igor |
 // +-------------------------------------------+-------------+
 
 #include <stdio.h>
