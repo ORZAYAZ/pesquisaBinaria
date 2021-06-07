@@ -31,7 +31,7 @@ int  binariaRecursiva(int vetor[],int pesquisa, int direita, int esquerda)
 	}
 }
 
-void primeiraQ()
+int main (void)
 {
 	printf("\n");
 	printf(" +----------------------------------------------------------+\n");
@@ -94,4 +94,5 @@ void primeiraQ()
 			printf("\n");
 		}
 	}
+	return 0;
 }
