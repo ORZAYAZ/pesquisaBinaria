@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-void segundaQ()
+int main(void)
 {
 	printf("\n");
 	printf(" +-----------+\n");
@@ -98,4 +98,5 @@ void segundaQ()
 			printf("\n");
 		}
 	}
+	return 0;
 }
