@@ -1,1 +1,4 @@
-# pesquisaBinaria
+# Pesquisa Binária
+
+## Referência
+
